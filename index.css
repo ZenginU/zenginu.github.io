@@ -1,0 +1,9 @@
+img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
