@@ -22,7 +22,7 @@ function addHome() {
 function addEducation() {
   document.getElementById('main').innerHTML =
   `
-  <h2>Education : </h2>
+  <h2>Education</h2>
   <ul>
     <li>Koc University - Electrical and Electronics Engineering</li>
     <li>Koc University - Computer Engineering (Double Major)</li>
@@ -33,9 +33,31 @@ function addEducation() {
 function addProjects() {
   document.getElementById('main').innerHTML =
   `
-  <h2>Projects</h2>
+  <h2>FTP Server</h2>
   <ul>
-    <li>FTP Server</li>
+    <li>Designed and implemented a FTP server from scratch.</li>
+    <li>Written in Embedded C.</li>
+    <li>Multi-threaded server works for multi-client.</li>
+    <li>Comply with RFC Standard.</li>
+  </ul>
+  <h2>Data Generation and Model Training</h2>
+  <ul>
+    <li>Trained Machine Learning and Neural Network based on real-life data.</li>
+    <li>Generated data based on real-life product.</li>
+    <li>Used numpy, pandas, keras and seaborn.</li>
+    <li>Designed data pipeline and code architecture from scratch.</li>
+  </ul>
+
+  `;
+}
+
+function addExp() {
+  document.getElementById('main').innerHTML =
+  `
+  <h2 style="margin-bottom: 0;">Machine Learning Intern - Havelsan</h2>
+  <ul>
+    <li>Work with group of machine learning engineers.</li>
+    <li>Programmed section of pipeline for a large project.</li>
   </ul>
   `;
 }
