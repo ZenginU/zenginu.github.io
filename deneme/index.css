@@ -19,26 +19,19 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 .welcome .center {
-  flex: 55;
+  flex: 70;
   text-align: center;
-  align-items: center;
-  justify-content: center;
 }
 .welcome .center img {
   height: 30vh;
   width: 30vh;
   border-radius: 50%;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 .welcome .text {
-  flex: 45;
-  justify-content: center;
+  flex: 30;
   text-align: center;
   color: #FFF;
   font-size: 4vmin;
@@ -46,30 +39,36 @@ body {
 }
 
 .last {
-  background-color: black;
-  height: 100vh;
-  top: 0;
-  bottom: 0;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85)), url("matrix.jpeg");
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 50vh;
   padding: 0;
   margin: 0;
+  padding-left: 5vw;
 }
 .last h1 {
   font-size: 4vmin;
   color: #FFF;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-left: 6vw;
 }
 .last ul {
   list-style-type: none;
   font-size: 3vmin;
   color: #FFF;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-left: 5vw;
+  padding-right: 5vw;
   padding-top: 3vmin;
 }
 .last ul li {
-  padding-bottom: 5vmin;
+  padding-bottom: 4vmin;
 }
-.last ul li br {
-  text-align: right;
+.last ul li .year {
+  font-size: 2.5vmin;
+  float: inline-end;
+}
+.last ul li .country {
+  font-size: 2.5vmin;
+  font-style: italic;
 }/*# sourceMappingURL=index.css.map */

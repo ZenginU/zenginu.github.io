@@ -13,6 +13,7 @@ body {
 	background-size: cover;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
+
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -20,28 +21,21 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
 
 	.center {
-		flex: 55;
+		flex: 70;
 		text-align: center;
-		align-items: center;
-		justify-content: center;
 
 		img {
 			height: 30vh;
 			width: 30vh;
 			border-radius: 50%;
-			margin-top: 10vh;
+			margin-top: 20vh;
 		}
 	}
 
 	.text {
-		flex: 45;
-		justify-content: center;
+		flex: 30;
 		text-align: center;
 		color: #FFF;
 		font-size: 4vmin;
@@ -50,18 +44,20 @@ body {
 }
 
 .last {
-	background-color: black;
-	height: 100vh;
-	top: 0;
-	bottom: 0;
+	background-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.95), rgb(0, 0, 0, 0.85)), url("matrix.jpeg");
+	background-size: cover;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+
+	height: 50vh;
 	padding: 0;
 	margin: 0;
+	padding-left: 5vw;
 
 	h1 {
 		font-size: 4vmin;
 		color: #FFF;
 		font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-		padding-left: 6vw;
 	}
 
 	ul {
@@ -69,14 +65,20 @@ body {
 		font-size: 3vmin;
 		color: #FFF;
 		font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-		padding-left: 5vw;
+		padding-right: 5vw;
 		padding-top: 3vmin;
 
 		li {
-			padding-bottom: 5vmin;
+			padding-bottom: 4vmin;
 
-			br {
-				text-align: right;
+			.year {
+				font-size: 2.5vmin;
+				float: inline-end;
+			}
+
+			.country {
+				font-size: 2.5vmin;
+				font-style: italic;
 			}
 		}
 	}
