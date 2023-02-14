@@ -1,72 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  /*background-color: #f8f3ee;*/
-  background-color: #fff;
-  margin: 0;
+  background-color: #fafafa;
+  color: black;
 }
 
-footer {
-  background-color: orange;
-  position: fixed;
-  bottom: 0;
+.welcome {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgb(250, 250, 250)), url("coding.jpeg");
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
   width: 100%;
-}
-
-footer ul {
+  padding: 0;
   margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  background-color: yellow;
-  height: 40px;
 }
-
-footer li {
-  flex: auto;
-  border: solid;
-  background-color: #555555;
-}
-
-footer li a {
-  height: 100%;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.welcome .center {
+  flex: 70;
   text-align: center;
 }
-
-footer li a:hover {
-  background-color: #333333;
+.welcome .center img {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  margin-top: 20vh;
 }
-
-.menu {
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  background-color: yellow;
-  height: 50px;
-}
-
-.menu li {
-  flex: auto;
-  border: solid;
-  background-color: #555555;
-}
-
-.menu li a {
-  height: 100%;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.welcome .text {
+  flex: 30;
   text-align: center;
+  font-size: 4vmin;
+  font-family: monospace;
 }
 
-.menu li a:hover {
-  background-color: #333333;
+.last {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  padding-left: 5vw;
 }
+.last h1 {
+  font-size: 4vmin;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.last ul {
+  list-style-type: none;
+  font-size: 3vmin;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-right: 5vw;
+  padding-top: 3vmin;
+}
+.last ul li {
+  padding-bottom: 4vmin;
+  font-size: 2.7vmin;
+}
+.last ul li li {
+  font-size: 2.5vmin;
+  margin-left: 5vmin;
+  list-style-type: square;
+}
+.last ul li .year {
+  float: right;
+}
+.last ul li .country {
+  font-style: italic;
+}/*# sourceMappingURL=index.css.map */
