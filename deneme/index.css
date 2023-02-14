@@ -35,7 +35,7 @@ body {
   text-align: center;
   color: #FFF;
   font-size: 4vmin;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: monospace;
 }
 
 .last {
