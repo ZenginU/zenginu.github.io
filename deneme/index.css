@@ -4,11 +4,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
+  color: black;
 }
 
 .welcome {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url("coding.jpeg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgb(255, 255, 255)), url("coding.jpeg");
   background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -33,36 +34,34 @@ body {
 .welcome .text {
   flex: 30;
   text-align: center;
-  color: #FFF;
   font-size: 4vmin;
   font-family: monospace;
 }
 
 .last {
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85)), url("matrix.jpeg");
-  background-size: cover;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  height: 50vh;
+  height: 100vh;
   padding: 0;
   margin: 0;
   padding-left: 5vw;
 }
 .last h1 {
   font-size: 4vmin;
-  color: #FFF;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .last ul {
   list-style-type: none;
   font-size: 3vmin;
-  color: #FFF;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-right: 5vw;
   padding-top: 3vmin;
 }
 .last ul li {
   padding-bottom: 4vmin;
+}
+.last ul li li {
+  margin-left: 5vmin;
+  list-style-type: square;
+  font-size: 2.5vmin;
 }
 .last ul li .year {
   font-size: 2.5vmin;
