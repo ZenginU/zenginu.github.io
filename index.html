@@ -5,128 +5,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umut Zengin</title>
+    <meta name="description"
+        content="Umut Zengin is a Software Engineer at MathWorks.">
+    <title>Umut Zengin | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
 </head>
 
 <body>
+    <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="#top">UZ</a>
+        <nav>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
 
-    <div class="welcome">
-        <div class="center">
-            <img src="umut.jpeg" alt="Umut Zengin">
-        </div>
+    <main id="top">
+        <section class="hero" aria-labelledby="intro-title">
+            <div class="hero-backdrop" aria-hidden="true"></div>
+            <div class="hero-content">
+                <div class="hero-copy">
+                    <p class="eyebrow">Software Engineer at MathWorks</p>
+                    <h1 id="intro-title">Umut Zengin</h1>
+                    <p class="hero-subtitle">Bringing imagination to life through software, systems, and computer vision.</p>
+                    <div class="hero-actions" aria-label="Quick links">
+                        <a class="button primary" href="#experience">View Work</a>
+                    </div>
+                </div>
 
-        <div class="text">
-            <div class="name randomText" id="myName">Umut Zengin</div>
-            <div class="description randomText">Bringing Your Imagination To Life.</div>
-        </div>
-    </div>
+                <aside class="profile-panel" aria-label="Profile summary">
+                    <img src="umut.jpeg" alt="Umut Zengin" class="profile-photo">
+                    <div>
+                        <p class="panel-kicker">Currently</p>
+                        <p>Software Engineer at MathWorks.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
 
-    <div class="last">
-        <h1>Education</h1>
-        <ul>
-            <li>
-                Master of Science in Electrical and Computer Engineering - Georgia Institute of Technology
-                <span class="year">Aug. 2024 - May 2026</span><br>
-                <span class="country">Atlanta, GA</span><br>
-                <strong>GPA:</strong> 3.81/4.00
-            </li>
-            <li>
-                Bachelor of Science in Computer Engineering (Double Major) - Koc University
-                <span class="year">Jan. 2022 - Jun. 2024</span><br>
-                <span class="country">Istanbul, Turkey</span>
-            </li>
-            <li>
-                Bachelor of Science in Electrical and Electronics Engineering - Koc University
-                <span class="year">Aug. 2019 - Feb. 2024</span><br>
-                <span class="country">Istanbul, Turkey</span><br>
-                <strong>GPA:</strong> 3.77/4.00
-            </li>
-        </ul>
+        <section id="experience" class="section split-section">
+            <div class="section-heading">
+                <p class="eyebrow">Experience</p>
+                <h2>Engineering across product, research, and applied systems.</h2>
+            </div>
 
-        <h1>Professional Experience</h1>
-        <ul>
-            <li>
-                <b>Software Engineer Intern, MathWorks</b>
-                <span class="year">May. 2025 - Aug. 2025</span><br>
-                <span class="country">Natick, MA</span>
-                <ul>
-                    <li>Developed tabular math functions entirely in MATLAB for structured data analysis.</li>
-                    <li>Extended date/time types for financial modeling, referencing MATLAB and C++ source code.</li>
-                    <li>Used Jira, Confluence, and internal tools to track features and bugs.</li>
-                    <li>Wrote unit tests and test plans for full functional and edge-case coverage.</li>
-                </ul>
-            </li>
-            <li>
-                <b>Software Engineer, Koc University</b>
-                <span class="year">Mar. 2024 - Jul. 2024</span><br>
-                <span class="country">Istanbul, Turkey</span>
-                <ul>
-                    <li>Developed a graphical user interface (GUI) for multiple embedded devices using the PyQt
-                        framework.</li>
-                    <li>Integrated 3+ embedded devices under a single GUI using multi-threaded programming for efficient
-                        management.</li>
-                    <li>Managed live video stream processing using multi-threading and OpenCV to achieve real-time
-                        performance.</li>
-                </ul>
-            </li>
-            <li>
-                <b>Undergraduate Research Assistant, Koc University</b>
-                <span class="year">Sep. 2022 - Jun. 2024</span><br>
-                <span class="country">Istanbul, Turkey</span>
-                <ul>
-                    <li>Developed an end-to-end image processing pipeline using OpenCV for novel medical image scoring
-                        system.</li>
-                    <li>Collaborated with medical professionals to process data from over 250 videos for research.</li>
-                    <li>Designed and implemented a custom labeling framework to streamline data annotation for surgeons.
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <b>Machine Learning Intern, HAVELSAN</b>
-                <span class="year">Aug. 2022</span><br>
-                <span class="country">Ankara, Turkey</span>
-                <ul>
-                    <li>Implemented data augmentation techniques and optimized neural networks using TensorFlow,
-                        increasing accuracy by 21%.</li>
-                    <li>Refactored Python functions to NumPy-based functions, improving performance by 3x.</li>
-                </ul>
-            </li>
-            <li>
-                <b>Software Engineering Intern, Turkish Aerospace Industries</b>
-                <span class="year">Jul. 2021 - Sep. 2021</span><br>
-                <span class="country">Ankara, Turkey</span>
-                <ul>
-                    <li>Designed and implemented an embedded FTP server from scratch, supporting 10+ simultaneous
-                        clients.</li>
-                    <li>Optimized Python code by 50% using multi-threading, reducing wait times for subprocess calls.
-                    </li>
-                </ul>
-            </li>
-        </ul>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <span>Jan 2026 - Present</span>
+                        <small>Natick, MA</small>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Software Engineer</h3>
+                        <p class="org">MathWorks</p>
+                        <ul>
+                            <li>Modernization from C/C++ to MATLAB for Digital Filters.</li>
+                        </ul>
+                    </div>
+                </article>
 
-        <h1>Projects</h1>
-        <ul>
-            <li>
-                <b>SnapAnemia</b>
-                <span class="year">Feb. 2024 - Jul. 2024</span>
-                <ul>
-                    <li>Developed an iOS app for patient monitoring and diagnosis using XCode, Swift, and C++.</li>
-                    <li>Integrated Firebase for database and authentication services for doctors and patients.</li>
-                    <li>Utilized computer vision tasks by integrating C++ code into Swift.</li>
-                </ul>
-            </li>
-        </ul>
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <span>May 2025 - Aug 2025</span>
+                        <small>Natick, MA</small>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Software Engineer</h3>
+                        <p class="org">MathWorks</p>
+                        <ul>
+                            <li>Developed tabular math functions in MATLAB for structured data analysis.</li>
+                            <li>Extended date/time types for financial modeling across MATLAB and C++ source code.</li>
+                            <li>Created unit tests and test plans covering functional and edge-case behavior.</li>
+                        </ul>
+                    </div>
+                </article>
 
-        <h1>Technical Skills</h1>
-        <ul>
-            <li><b>Languages:</b> Java, Python, C, C++, MATLAB, Julia, JavaScript</li>
-            <li><b>Frameworks:</b> PyTorch, PyQt, TensorFlow, Firebase, XCode</li>
-        </ul>
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <span>Mar 2024 - Jul 2024</span>
+                        <small>Istanbul, Turkey</small>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Software Engineer</h3>
+                        <p class="org">Koc University</p>
+                        <ul>
+                            <li>Built a PyQt GUI for managing multiple embedded devices from one interface.</li>
+                            <li>Integrated threaded device control and live OpenCV video processing for real-time use.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    </div>
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <span>Sep 2022 - Jun 2024</span>
+                        <small>Istanbul, Turkey</small>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Undergraduate Research Assistant</h3>
+                        <p class="org">Koc University</p>
+                        <ul>
+                            <li>Developed an end-to-end OpenCV pipeline for a novel medical image scoring system.</li>
+                            <li>Processed data from more than 250 videos and built a custom surgeon annotation workflow.</li>
+                        </ul>
+                    </div>
+                </article>
 
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <span>Aug 2022</span>
+                        <small>Ankara, Turkey</small>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Machine Learning Intern</h3>
+                        <p class="org">HAVELSAN</p>
+                        <ul>
+                            <li>Improved TensorFlow model accuracy by 21% using augmentation and optimization.</li>
+                            <li>Refactored Python functions into NumPy implementations, improving performance by 3x.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <span>Jul 2021 - Sep 2021</span>
+                        <small>Ankara, Turkey</small>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Software Engineering Intern</h3>
+                        <p class="org">Turkish Aerospace Industries</p>
+                        <ul>
+                            <li>Designed and implemented an embedded FTP server supporting 10+ simultaneous clients.</li>
+                            <li>Reduced subprocess wait times by 50% through targeted Python multi-threading.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section feature-section">
+            <div class="section-heading compact">
+                <p class="eyebrow">Project</p>
+                <h2>SnapAnemia</h2>
+                <p>An iOS patient monitoring and diagnosis app combining Swift interfaces, C++ vision code, and Firebase services.</p>
+            </div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <span>01</span>
+                    <h3>Mobile product</h3>
+                    <p>Built the app experience in Xcode and Swift for doctors and patients.</p>
+                </div>
+                <div class="project-card">
+                    <span>02</span>
+                    <h3>Vision integration</h3>
+                    <p>Connected C++ computer vision tasks into Swift for diagnosis workflows.</p>
+                </div>
+                <div class="project-card">
+                    <span>03</span>
+                    <h3>Cloud services</h3>
+                    <p>Integrated Firebase database and authentication for secure user flows.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section education-section">
+            <div class="section-heading">
+                <p class="eyebrow">Education</p>
+                <h2>Academic foundation in computing, electronics, and systems.</h2>
+            </div>
+            <div class="education-grid">
+                <article>
+                    <span>Aug 2024 - Dec 2025</span>
+                    <h3>Georgia Institute of Technology</h3>
+                    <p>MS, Electrical and Computer Engineering</p>
+                    <strong>Atlanta, GA</strong>
+                </article>
+                <article>
+                    <span>Jan 2022 - Jun 2024</span>
+                    <h3>Koc University</h3>
+                    <p>BS, Computer Engineering (Double Major)</p>
+                    <strong>Istanbul, Turkey</strong>
+                </article>
+                <article>
+                    <span>Aug 2019 - Feb 2024</span>
+                    <h3>Koc University</h3>
+                    <p>BS, Electrical and Electronics Engineering</p>
+                    <strong>Istanbul, Turkey</strong>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <div class="section-heading compact">
+                <p class="eyebrow">Technical Skills</p>
+                <h2>Tools for building across the stack.</h2>
+            </div>
+            <div class="skills-cloud" aria-label="Technical skills">
+                <span>Java</span>
+                <span>Python</span>
+                <span>C</span>
+                <span>C++</span>
+                <span>MATLAB</span>
+                <span>Julia</span>
+                <span>JavaScript</span>
+                <span>PyTorch</span>
+                <span>PyQt</span>
+                <span>TensorFlow</span>
+                <span>Firebase</span>
+                <span>Xcode</span>
+                <span>OpenCV</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Umut Zengin</p>
+        <a href="#top">Back to top</a>
+    </footer>
 </body>
 
 </html>
